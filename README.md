@@ -47,8 +47,8 @@ A Spring Boot REST API for managing student records.
 ### Example Requests
 | Method | Endpoint                                                                          |
 |------|-----------------------------------------------------------------------------------|
-| GET | http://localhost:8080/v1/students/paged?page=0&size=4&sortBy=name&direction=desc  |
-| GET | http://localhost:8080/v1/students/paged?page=0&size=4&sort=name,asc               |
+| GET | v1/students/paged?page=0&size=4&sortBy=name&direction=desc  |
+| GET | /v1/students/paged?page=0&size=4&sort=name,asc               |
 
 
 ## 🧪 Status
